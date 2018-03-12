@@ -14,6 +14,7 @@
 						<div class="card-header">
 							Login
 						</div>
+
 						<form method="POST" action="" class="form-login">
 							<div class="form-group">
 								<label for="username"><b>Username</b> </label>
@@ -26,6 +27,8 @@
 							<input type="checkbox" name="remember_me" id="remember_me">
 							<span>Remember Me</span>
 							<input type="submit" name="submit" id="submit" class="btn btn-success btn-block" value="Login">
+
+							<a href="Forgot Password?"></a>
 						</form>
 					</div>
 			</div>	

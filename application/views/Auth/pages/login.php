@@ -4,22 +4,30 @@
 	<title>Login</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/style/Auth/login.css'); ?>">
 </head>
 <body>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 offset-md-4">
-				<form>
-					<div class="form-group">
-						<label for="username">Username :</label>
-						<input type="text" name="username" id="username" class="form-control">
+					<div class="card">
+						<div class="card-header">
+							Login
+						</div>
+						<form method="POST" action="" class="form-login">
+							<div class="form-group">
+								<label for="username"><b>Username</b> </label>
+								<input type="text" name="username" id="username" class="form-control">
+							</div>
+							<div class="form-group">
+								<label for="password"><b>Password</b> </label>
+								<input type="password" name="password" id="password" class="form-control">
+							</div>
+							<input type="checkbox" name="remember_me" id="remember_me">
+							<span>Remember Me</span>
+							<input type="submit" name="submit" id="submit" class="btn btn-success btn-block" value="Login">
+						</form>
 					</div>
-					<div class="form-group">
-						<label for="password">Password :</label>
-						<input type="password" name="password" id="password" class="form-control">
-					</div>
-					<input type="submit" name="submit" id="submit" class="btn btn-success">
-				</form>
 			</div>	
 		</div>
 	</div>

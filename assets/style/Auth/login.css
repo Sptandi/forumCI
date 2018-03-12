@@ -1,0 +1,17 @@
+.form-login{
+	height: 20rem;
+	padding: 1rem;
+
+}
+
+.container{
+	margin-top: 5rem;
+}
+
+.card-header{
+	border-color: #ecf0f1;
+}
+
+input[type="submit"]{
+	margin-top: 2rem;
+}

@@ -1,1 +1,1 @@
-cek cek cek
+cek cek

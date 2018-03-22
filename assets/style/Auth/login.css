@@ -3,7 +3,6 @@
 	padding: 1rem;
 
 }
-
 .container{
 	margin-top: 5rem;
 }
@@ -14,4 +13,8 @@
 
 input[type="submit"]{
 	margin-top: 2rem;
+}
+
+form a{
+	margin-left: 6rem;
 }

@@ -8,6 +8,10 @@ class Auth extends CI_Controller{
 		$this->load->view("Auth/templates/footer");
 	}
 
+	public function login(){
+		
+	}
+
 }
 
 ?>

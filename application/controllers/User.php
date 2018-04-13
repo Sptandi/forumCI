@@ -1,9 +1,7 @@
 <?php 
 
-class User extends CI_COntroller{
+class User extends CI_Controller{
 
-	public function index(){
-		$this->load->view("User/pages/beranda");
-	}
+	
 
 }

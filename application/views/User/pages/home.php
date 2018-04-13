@@ -4,9 +4,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/style/User/home.css');?>">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/style/User/beranda.css');?>">
+	<title></title>
 </head>
 <body>
 	<div class="container">	
@@ -21,13 +21,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="input-group mb-3 search-thread">
 				  <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Search thread">
 				</div>
-				<button type="button" class="btn btn-success" style="width: 255px">Create Thread</button>
+				<input type="submit" class="bt" name="submit">
 				<div class="sidebar-line">
 					<hr>
 				</div>
 				<div class="list-group category">
 		    	  <h4>Categories</h4>
-				  <a href="#" class="list-group-item list-group-item-action active">Cras justo odio</a>
+				  <a href="#" class="list-group-item list-group-item active item">Cras justo odio</a>
 				  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
 				  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
 				  <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>

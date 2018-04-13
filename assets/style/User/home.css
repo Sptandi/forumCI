@@ -10,14 +10,21 @@
 	margin-top: 1rem;
 }
 
-.btn-success {
+.bt {
+	background-color: #18BC9C;
+	width: 255px;
+	color: white;
 	margin-top: 2px;
+	border-color: #18BC9C;
 }
 
 .category {
 	margin-top: 4rem;
 }
 
+.item {
+	background-color: #2C3E50;
+}
 
 .card {
 	margin-top: 1rem;
@@ -25,8 +32,8 @@
 
 <!-- add margin navbar -->
 .top-nav {
-	color: #ffffff;
-	background-color: red;
+	background-color: #18BC9C;
+	color: white;
 }
 
 

@@ -1,11 +1,11 @@
 <html>
 <head>
-	<title></title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/style/User/beranda.css');?>">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<title></title>
 </head>
 <div class="fixed-top top-nav">	
-	<nav class="navbar navbar-expand-lg navbar-light " style="background-color: #149c82">
+	<nav class="navbar navbar-expand-lg navbar-light " style="background-color: #18BC9C">
 	  <a class="navbar-brand" href="#">Navbar</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>

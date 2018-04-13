@@ -1,0 +1,32 @@
+.title-forum {
+	margin-top: 6rem;
+}
+
+.sidebar-line {
+	margin-top: 2rem;
+}
+
+.search-thread {
+	margin-top: 1rem;
+}
+
+.btn-success {
+	margin-top: 2px;
+}
+
+.category {
+	margin-top: 4rem;
+}
+
+
+.card {
+	margin-top: 1rem;
+}
+
+<!-- add margin navbar -->
+.top-nav {
+	color: #ffffff;
+	background-color: red;
+}
+
+

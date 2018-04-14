@@ -25,9 +25,6 @@
 	<section class="container-wrap">
 		<div class="container">	
 			<div class="row">
-				
-			</div>
-			<div class="row">
 				<div class="col-md-3">
 					<div class="input-group mb-3 search-thread">
 					  <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Search thread">

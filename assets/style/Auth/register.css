@@ -19,9 +19,8 @@ nav{
 }
 
 .form-login{
-	height: 20rem;
+	height: 26rem;
 	padding: 1rem;
-
 }
 .container{
 	margin-top: 5rem;
@@ -30,9 +29,12 @@ nav{
 .card-header{
 	border-color: #ecf0f1;
 }
+sup{
+	color: red;
+}
 
 input[type="submit"]{
-	margin-top: 2rem;
+	margin-top: 20px;
 	margin-bottom: 15px;
 	background-color: #18BC9C; 
 	color: #fff;

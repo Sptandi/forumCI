@@ -1,14 +1,27 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?>
-<!DOCTYPE html>
-<html>
-<head>
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/style/User/home.css');?>">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<title>Home | Forum</title>
 </head>
 <body>
+
+	<nav class="navbar navbar-expand-sm">
+		<div class="container">
+			<a href="<?php echo site_url('home'); ?>" class="navbar-brand">Forum <span class="highlight">UII</span></a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="<?php echo site_url('login'); ?>" class="nav-link">Login</a>
+					</li><li class="nav-item">
+						<a href="<?php echo site_url('register'); ?>" class="nav-link">Register</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
 	<div class="container">	
 		<div class="row">
 			<div class="col-md-12 title-forum">
@@ -21,7 +34,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="input-group mb-3 search-thread">
 				  <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Search thread">
 				</div>
-				<input type="submit" class="bt" name="submit">
+				<div class="input-group mb-3 sm-12">
+					<input type="submit" class="btn btn-success" name="submit" value="Create Thread">
+				</div>
 				<div class="sidebar-line">
 					<hr>
 				</div>

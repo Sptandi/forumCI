@@ -9,7 +9,9 @@ body{
 nav{
 	background-color: #18BC9C;
 	color: #fff;
-	font-weight: bold;
+}
+.highlight{
+	color: yellow;
 }
 .navbar-brand{
 	color: #fff;
@@ -22,10 +24,9 @@ nav{
 	height: 26rem;
 	padding: 1rem;
 }
-.container{
+.card{
 	margin-top: 5rem;
 }
-
 .card-header{
 	border-color: #ecf0f1;
 }

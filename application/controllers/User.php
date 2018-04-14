@@ -7,7 +7,7 @@ class User extends CI_Controller {
 	{	
 		$this->load->view('User/templates/header');
 		$this->load->view('User/pages/home');
-		//$this->load->view('User/pages/templates/footer');
+		$this->load->view('User/templates/footer');
 	}
 
 	public function showSetting()

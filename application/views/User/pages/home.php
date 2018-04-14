@@ -22,46 +22,79 @@
 		</div>
 	</nav>
 
-	<div class="container">	
-		<div class="row">
-			<div class="col-md-12 title-forum">
-				<h1>Forum</h1>
-				<hr>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-3">
-				<div class="input-group mb-3 search-thread">
-				  <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Search thread">
-				</div>
-				<div class="input-group mb-3 sm-12">
-					<input type="submit" class="btn btn-success" name="submit" value="Create Thread">
-				</div>
-				<div class="sidebar-line">
+	<section class="container-wrap">
+		<div class="container">	
+			<div class="row">
+				<div class="col-md-12 title-forum">
+					<h1>Forum</h1>
 					<hr>
-				</div>
-				<div class="list-group category">
-		    	  <h4>Categories</h4>
-				  <a href="#" class="list-group-item list-group-item active item">Cras justo odio</a>
-				  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-				  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-				  <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-				  <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
 				</div>
 			</div>
 
-			<div class="col-md-9 main-content">
-				<div class="card">
-				  <div class="card-header">
-				  	Features replied 19 minutes ago
-				  </div>
-				  <div class="card-body">
-				    <h5 class="card-title">Special title treatment</h5>
-				    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-				  </div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="input-group mb-3 search-thread">
+					  <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Search thread">
+					</div>
+					<div class="input-group mb-3 sm-12">
+						<input type="submit" class="btn btn-success" name="submit" value="Create Thread">
+					</div>
+					<div class="sidebar-line">
+						<hr>
+					</div>
+					<div class="list-group category">
+			    	  <h4>Categories</h4>
+					  <a href="#" class="list-group-item list-group-item active item">Cras justo odio</a>
+					  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+					  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+					  <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+					  <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+					</div>
+				</div>
+
+				<div class="col-md-9 main-content">
+					<!-- Card 1 -->
+					<div class="card">
+					  <div class="card-header">	
+					  	<ul class="nav">
+					  		<li class="nav-item">
+					  			<a href="" class="nav-link">
+					  				<img src="<?php echo base_url('assets/img/sample.jpg'); ?>" class="img-fluid rounded-circle">
+					  			</a>
+					  		</li>
+					  		<li class="nav-item">
+					  			<p>Posted By <a href="">Fikri</a> 10 minutes ago</p>
+					  		</li>
+					  	</ul>
+					  </div>
+					  <div class="card-body">
+					    <a href=""><h5 class="card-title">Judul Postingan</h5></a>
+					    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sedUt enim ad minim...</p>
+					  </div>
+					</div>
+
+					<!-- Card 2 -->
+					<div class="card">
+					  <div class="card-header">	
+					  	<ul class="nav">
+					  		<li class="nav-item">
+					  			<a href="" class="nav-link">
+					  				<img src="<?php echo base_url('assets/img/sample.jpg'); ?>" class="img-fluid rounded-circle">
+					  			</a>
+					  		</li>
+					  		<li class="nav-item">
+					  			<p>Posted By <a href="">Andi</a> 9 minutes ago</p>
+					  		</li>
+					  	</ul>
+					  </div>
+					  <div class="card-body">
+					    <a href=""><h5 class="card-title">Judul Postingan 2</h5></a>
+					    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sedUt enim ad minim...</p>
+					  </div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 </body>
 </html>

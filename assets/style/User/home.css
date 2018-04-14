@@ -10,6 +10,9 @@ nav{
 	background-color: #18BC9C;
 	color: #fff;
 }
+.container-wrap{
+	min-height: 600px;
+}
 .highlight{
 	color: yellow;
 }
@@ -19,17 +22,19 @@ nav{
 .navbar-brand:hover{
 	color: #2C3E50;
 }
-
-li a{
+.clear{
+	clear: both;
+}
+nav li a{
 	color: #fff;
 }
 
-li, a:hover{
+nav li, a:hover{
 	color: #2C3E50;
 }
 
 .title-forum {
-	margin-top: 6rem;
+	margin-top: 3rem;
 }
 
 .sidebar-line {
@@ -49,7 +54,7 @@ li, a:hover{
 	border-color: #fff;
 }
 .btn-success:hover{
-	background-color: #16A488;
+	background-color: #128A72;
 	border-color: #fff;
 }
 
@@ -60,12 +65,41 @@ li, a:hover{
 .item {
 	background-color: #2C3E50;
 }
-
+.profile{
+	width: 100%;
+	height: 30px;
+}
 .card {
 	margin-top: 1rem;
+	border-color: #ecf0f1;
 }
-
-<!-- add margin navbar -->
+.card-header{
+	background-color: #ecf0f1;
+}
+.card-header img{
+	float: left;
+	width: 30px;
+}
+.card-header a{
+	color: #18BC9C;
+	padding: 0;
+	margin: 0;
+}
+.card-header p{
+	font-size: 20px;
+	display: inline;
+	margin-left: 10px;
+}
+.card-body a{
+	color: #18BC9C;
+}
+@media only screen and (max-width: 400px){
+	.card-header p{
+		font-size: 14px;
+	}
+}
+/* 
+<!-- add margin navbar --> */
 .top-nav {
 	background-color: #18BC9C;
 	color: white;

@@ -1,9 +1,9 @@
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/style/Auth/login.css'); ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/style/Auth/register.css'); ?>">
 </head>
 <body>
 
 	<nav class="navbar navbar-expand-sm">
-		<a href="<?php echo site_url('auth/index'); ?>" class="navbar-brand">Forum</a>
+		<a href="<?php echo site_url('login'); ?>" class="navbar-brand">Forum</a>
 		<button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
 			<span class="navbar-toggler-icon"></span>
 		</button>

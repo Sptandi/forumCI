@@ -5,7 +5,7 @@ class User extends CI_Controller {
 
 	public function index()
 	{	
-		$this->load->view('User/pages/templates/header');
+		$this->load->view('User/templates/header');
 		$this->load->view('User/pages/home');
 
 	}

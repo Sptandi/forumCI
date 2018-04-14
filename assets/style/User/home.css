@@ -13,6 +13,9 @@ nav{
 .container-wrap{
 	min-height: 600px;
 }
+.row{
+	margin-top: 1rem;
+}
 .highlight{
 	color: yellow;
 }

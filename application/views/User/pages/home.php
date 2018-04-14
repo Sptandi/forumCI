@@ -25,12 +25,8 @@
 	<section class="container-wrap">
 		<div class="container">	
 			<div class="row">
-				<div class="col-md-12 title-forum">
-					<h1>Forum</h1>
-					<hr>
-				</div>
+				
 			</div>
-
 			<div class="row">
 				<div class="col-md-3">
 					<div class="input-group mb-3 search-thread">
@@ -89,6 +85,26 @@
 					  </div>
 					  <div class="card-body">
 					    <a href=""><h5 class="card-title">Judul Postingan 2</h5></a>
+					    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sedUt enim ad minim...</p>
+					  </div>
+					</div>
+
+					<!-- Card 2 -->
+					<div class="card">
+					  <div class="card-header">	
+					  	<ul class="nav">
+					  		<li class="nav-item">
+					  			<a href="" class="nav-link">
+					  				<img src="<?php echo base_url('assets/img/sample.jpg'); ?>" class="img-fluid rounded-circle">
+					  			</a>
+					  		</li>
+					  		<li class="nav-item">
+					  			<p>Posted By <a href="">Paijo</a> 2 hours ago</p>
+					  		</li>
+					  	</ul>
+					  </div>
+					  <div class="card-body">
+					    <a href=""><h5 class="card-title">Judul Postingan 3</h5></a>
 					    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sedUt enim ad minim...</p>
 					  </div>
 					</div>

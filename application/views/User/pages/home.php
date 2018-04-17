@@ -29,6 +29,8 @@
 				  </a>
 
 				  <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+				  	<p class="dropdown-item dropdown-backdrop">Fikri Ahmadi</p>
+				  	<hr>
 				  	<a class="dropdown-item" href="">Profile</a>
 				  	<a class="dropdown-item" href="">Dashboard</a>
 				  	<a class="dropdown-item" href="">Setting</a>
@@ -53,6 +55,18 @@
 					<div class="sidebar-line">
 						<hr>
 					</div>
+
+					<!-- Top Thread -->
+					<div class="list-group category">
+			    	  <h4>Top Threads</h4>
+					  <a href="#" class="list-group-item list-group-item-action">Pemilwa Rektor</a>
+					  <a href="#" class="list-group-item list-group-item-action">Sarasehan Pencairan Mapala Unisi</a>
+					  <a href="#" class="list-group-item list-group-item-action">Unisi ArtFest</a>
+					  <a href="#" class="list-group-item list-group-item-action">UII Story : LEM U</a>
+					  <a href="#" class="list-group-item list-group-item-action disabled">PMB UII 2018</a>
+					</div>
+
+					<!-- Category -->
 					<div class="list-group category">
 			    	  <h4>Categories</h4>
 					  <a href="#" class="list-group-item list-group-item active item">Cras justo odio</a>

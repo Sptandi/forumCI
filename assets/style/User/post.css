@@ -13,6 +13,9 @@ nav{
 .container-wrap{
 	min-height: 800px;
 }
+.respond{
+	margin-left: 5rem;
+}
 .profile-photo{
 	width: 100%;
 }
@@ -48,7 +51,6 @@ nav li a{
 nav li, a:hover{
 	color: #2C3E50;
 }
-
 .sidebar-line {
 	margin-top: 2rem;
 }

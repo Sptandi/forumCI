@@ -6,6 +6,7 @@ $route['login'] = 'Auth/login'; // forumCI/login
 $route['register'] = 'Auth/register';
 
 $route['home'] = 'User/index';
+$route['post'] = 'User/post';
 $route['setting'] = 'User/showSetting';
 
 $route['404_override'] = '';

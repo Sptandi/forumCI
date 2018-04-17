@@ -19,7 +19,6 @@ nav{
 .navbar-brand:hover{
 	color: #2C3E50;
 }
-
 .form-login{
 	height: 26rem;
 	padding: 1rem;
@@ -29,6 +28,9 @@ nav{
 }
 .card-header{
 	border-color: #ecf0f1;
+}
+.row{
+	min-height: 800px;
 }
 sup{
 	color: red;

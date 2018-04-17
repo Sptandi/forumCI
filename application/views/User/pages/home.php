@@ -1,6 +1,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/style/User/home.css');?>">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<title>Home | Forum</title>
+
 </head>
 <body>
 
@@ -11,6 +12,7 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="menu">
+				<!-- Access Dropdown -->
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
 						<a href="<?php echo site_url('login'); ?>" class="nav-link">Login</a>
@@ -18,6 +20,22 @@
 						<a href="<?php echo site_url('register'); ?>" class="nav-link">Register</a>
 					</li>
 				</ul>
+				<!-- End Access Dropdown -->
+
+				<!-- Profile Dropdown -->
+				<ul class="navbar-nav navbar-toggler-right dropdown">
+				  <a class="navbar-right dropdown-toggle" role="button" href="" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-decoration: none; color: #000;" onmouseover="this.style.color='#fff'" onmouseleave="this.style.color='#000'">
+				  	<img class="rounded-circle" style="width: 30px;" src="<?php echo base_url('assets/img/sample.jpg'); ?>">
+				  </a>
+
+				  <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+				  	<a class="dropdown-item" href="">Profile</a>
+				  	<a class="dropdown-item" href="">Dashboard</a>
+				  	<a class="dropdown-item" href="">Setting</a>
+				  	<a class="dropdown-item" href="">Logout</a>
+				  </div>
+				</ul>
+				<!-- End Profile Dropdown -->
 			</div>
 		</div>
 	</nav>
@@ -61,7 +79,7 @@
 					  	</ul>
 					  </div>
 					  <div class="card-body">
-					    <a href=""><h5 class="card-title">Judul Postingan</h5></a>
+					    <a href="<?php echo site_url('post'); ?>"><h5 class="card-title">Judul Postingan</h5></a>
 					    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sedUt enim ad minim...</p>
 					  </div>
 					</div>
@@ -109,5 +127,3 @@
 			</div>
 		</div>
 	</section>
-</body>
-</html>

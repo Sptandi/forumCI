@@ -10,18 +10,27 @@ nav{
 	background-color: #18BC9C;
 	color: #fff;
 }
-nav li a{
-	color: #fff;
-}
-
-nav li, a:hover{
-	color: #2C3E50;
-}
 .container-wrap{
-	min-height: 600px;
+	min-height: 800px;
+}
+.profile-photo{
+	width: 100%;
+}
+/* h4{
+	text-align: center;
+	margin-bottom: 2rem;
+} */
+.name-user{
+	text-align: center;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+.back{
+	color: #18BC9C;
+	text-align: center;
 }
 .row{
-	margin-top: 1rem;
+	margin-top: 3rem;
 }
 .highlight{
 	color: yellow;
@@ -32,21 +41,24 @@ nav li, a:hover{
 .navbar-brand:hover{
 	color: #2C3E50;
 }
-.clear{
-	clear: both;
+nav li a{
+	color: #fff;
 }
-.title-forum {
-	margin-top: 3rem;
+
+nav li, a:hover{
+	color: #2C3E50;
 }
 
 .sidebar-line {
 	margin-top: 2rem;
 }
-
-.search-thread {
-	margin-top: 1rem;
+.title{
+	text-align: left
 }
-
+.title-line{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
 .btn-success {
 	background-color: #18BC9C;
 	width: 100%;
@@ -60,13 +72,6 @@ nav li, a:hover{
 	border-color: #fff;
 }
 
-.category {
-	margin-top: 4rem;
-}
-
-.item {
-	background-color: #2C3E50;
-}
 .profile{
 	width: 100%;
 	height: 30px;
@@ -92,6 +97,9 @@ nav li, a:hover{
 	display: inline;
 	margin-left: 10px;
 }
+.card-text{
+	text-align: justify;
+}
 .card-body a{
 	color: #18BC9C;
 }
@@ -100,11 +108,27 @@ nav li, a:hover{
 		font-size: 14px;
 	}
 }
-/* 
-<!-- add margin navbar --> */
-.top-nav {
-	background-color: #18BC9C;
-	color: white;
+.reply{
+	margin-left: 3rem;
 }
-
-
+.sign-in{
+	margin-top: 4rem;
+	margin-bottom: 5rem;
+	text-align: center;
+}
+.sign-in-link{
+	color: #18BC9C;
+}
+.load-more{
+	margin-top: 2rem;
+	margin-left: 3rem;
+}
+.btn-load-more{
+	color: inherit;
+	width: 100%;
+	background-color: #ecf0f1;
+	border-radius: 0;
+}
+.btn-load-more:hover{
+	background-color: #D2D4D4;
+}

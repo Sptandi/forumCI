@@ -44,7 +44,7 @@
 	<section class="author-description">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-2 author">
+				<div class="col-md-2 col-sm-6 author">
 					<img src="<?php echo base_url('assets/img/sample.jpg'); ?>" class="img-fluid rounded-circle">
 				</div>
 			</div>

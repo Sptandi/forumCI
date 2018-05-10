@@ -17,9 +17,11 @@ class User extends CI_Controller {
 		$this->load->view('User/templates/footer');
 	}
 
-	public function showSetting()
+	public function setting()
 	{
-		$this->load->view('User/pages/setting');	
+		$this->load->view('User/templates/header');
+		$this->load->view('User/pages/setting');
+		$this->load->view('User/templates/footer');	
 	}
 
 	public function author(){

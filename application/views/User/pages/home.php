@@ -31,9 +31,9 @@
 				  <div class="dropdown-menu" aria-labelledby="dropdownMenu">
 				  	<p class="dropdown-item dropdown-backdrop">Fikri Ahmadi</p>
 				  	<hr>
-				  	<a class="dropdown-item" href="">Profile</a>
-				  	<a class="dropdown-item" href="">Dashboard</a>
-				  	<a class="dropdown-item" href="">Setting</a>
+				  	<a class="dropdown-item" href=""><i class="fa fa-user" style="margin-right: 5px;"></i> Profile</a>
+				  	<a class="dropdown-item" href=""><i class="fa fa-home" style="margin-right: 5px;"></i> Dashboard</a>
+				  	<a class="dropdown-item" href=""><i class="fa fa-cog" style="margin-right: 5px;"></i> Setting</a>
 				  	<a class="dropdown-item" href="">Logout</a>
 				  </div>
 				</ul>

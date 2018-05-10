@@ -88,7 +88,7 @@
 					  			</a>
 					  		</li>
 					  		<li class="nav-item">
-					  			<p>Posted By <a href="">Fikri</a> 10 minutes ago</p>
+					  			<p>Posted By <a href="<?php echo site_url('author/fikrius'); ?>">Fikri</a> 10 minutes ago</p>
 					  		</li>
 					  	</ul>
 					  </div>

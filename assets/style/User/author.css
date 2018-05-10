@@ -1,0 +1,67 @@
+body{
+	font-family: Lato, "helvetica Neue", Helvetica,
+	Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #2C3E50;
+}
+
+nav{
+	background-color: #18BC9C;
+	color: #fff;
+}
+nav li a{
+	color: #fff;
+}
+
+nav li, a:hover{
+	color: #2C3E50;
+}
+.author-description{
+	min-height: 600px;
+	margin-top: 2rem;
+}
+.highlight{
+	color: yellow;
+}
+.navbar-brand{
+	color: #fff;
+}
+.navbar-brand:hover{
+	color: #2C3E50;
+}
+.author{
+	margin: auto;
+}
+.username{
+	margin: auto;
+}
+.username h3{
+	text-align: center;
+	margin-top: 1rem;
+}
+.desc{
+	margin-top: 3rem;
+}
+.desc h4{
+	text-align: center;
+}
+.social-media{
+	margin: auto;
+	margin-bottom: 3rem;
+	text-align: center;
+}
+.social-media a{
+	color: #18BC9C;
+}
+.social-media a:hover{
+	color: #2C3E50;
+}
+.back{
+	margin: auto;
+	text-align: center;
+}
+.back a{
+	color: #18BC9C;
+}
+

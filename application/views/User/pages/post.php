@@ -47,12 +47,12 @@
 				<div class="col-md-3">
 					<img class="profile-photo rounded-circle" src="<?php echo base_url('assets/img/sample.jpg'); ?>">
 					<h5 class="name-user">Fikri Ahmadi</h5>
-					<a href="<?php echo site_url('profile'); ?>" class="btn btn-success">View Profile</a>
+					<a href="<?php echo site_url('author/fikrius'); ?>" class="btn btn-success">View Profile</a>
 					<div class="sidebar-line">
 						<hr>
 					</div>
-					<a class="back" href="<?php echo site_url('home'); ?>">
-						<h6>Back</h6>
+					<a class="back" href="javascript:history.go(-1)">
+						<h6><i class="fa fa-arrow-left"></i> Back</h6>
 					</a>
 				</div>
 
@@ -71,7 +71,7 @@
 					  			</a>
 					  		</li>
 					  		<li class="nav-item">
-					  			<p>Posted By <a href="">Fikri</a> 10 minutes ago</p>
+					  			<p>Posted By <a href="<?php echo site_url('author/fikrius'); ?>">Fikri</a> 10 minutes ago</p>
 					  			<span class="respond" style="position: absolute; right: 1rem; top:15px;">
 						  			<i class="fa fa-thumbs-up" style="margin-right: 1rem;">123</i>
 						  			<i class="fa fa-thumbs-down">876</i>

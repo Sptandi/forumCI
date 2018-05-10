@@ -9,5 +9,7 @@ $route['home'] = 'User/index';
 $route['post'] = 'User/post';
 $route['setting'] = 'User/showSetting';
 
+$route['author/(:any)'] = 'User/author/$1';
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

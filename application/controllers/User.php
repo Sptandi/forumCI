@@ -21,4 +21,11 @@ class User extends CI_Controller {
 	{
 		$this->load->view('User/pages/setting');	
 	}
+
+	public function author(){
+		$this->load->view('User/templates/header');
+		$this->load->view('User/pages/author');
+		$this->load->view('User/templates/footer');
+	}
+
 }

@@ -1,6 +1,8 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/style/User/post.css');?>">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<title>Post | ForumUII</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+	<link rel="stylesheet" href="<?php echo base_url('node_modules/jquery-bar-rating/dist/themes/fontawesome-stars.css'); ?>">
 </head>
 <body>
 
@@ -73,8 +75,13 @@
 					  		<li class="nav-item">
 					  			<p>Posted By <a href="<?php echo site_url('author/fikrius'); ?>">Fikri</a> 10 minutes ago</p>
 					  			<span class="respond" style="position: absolute; right: 1rem; top:15px;">
-						  			<i class="fa fa-thumbs-up" style="margin-right: 1rem;">123</i>
-						  			<i class="fa fa-thumbs-down">876</i>
+						  			<select id="rating">
+									  <option value="1">1</option>
+									  <option value="2">2</option>
+									  <option value="3">3</option>
+									  <option value="4">4</option>
+									  <option value="5">5</option>
+									</select>
 					  			</span>
 					  		</li>
 					  	</ul>
@@ -102,10 +109,6 @@
 						  		</li>
 						  		<li class="nav-item">
 						  			<p>Replied By <a href="">Andi</a> 9 minutes ago</p>
-						  			<span class="respond" style="position: absolute; right: 1rem; top:15px;">
-						  			<i class="fa fa-thumbs-up" style="margin-right: 1rem;">123</i>
-						  			<i class="fa fa-thumbs-down">876</i>
-					  			</span>
 						  		</li>
 						  	</ul>
 						  </div>
@@ -126,10 +129,6 @@
 						  		</li>
 						  		<li class="nav-item">
 						  			<p>Replied By <a href="">Paijo</a> 2 hours ago</p>
-						  			<span class="respond" style="position: absolute; right: 1rem; top:15px;">
-						  			<i class="fa fa-thumbs-up" style="margin-right: 1rem;">123</i>
-						  			<i class="fa fa-thumbs-down">876</i>
-					  			</span>
 						  		</li>
 						  	</ul>
 						  </div>
@@ -151,4 +150,14 @@
 			</div>
 		</div>
 	</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="<?php echo base_url('node_modules/jquery-bar-rating/dist/jquery.barrating.min.js'); ?>"></script>
+	<script type="text/javascript">
+	   $(function() {
+	      $('#rating').barrating({
+	        theme: 'fontawesome-stars'
+	      });
+	   });
+	</script>
 

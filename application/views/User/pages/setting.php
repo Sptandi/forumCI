@@ -5,7 +5,7 @@
 
 </head>
 <body>
-	<nav class="navbar navbar-expand-sm">
+	<nav class="navbar navbar-expand-sm fixed-top">
 		<div class="container">
 			<a href="<?php echo site_url('home'); ?>" class="navbar-brand">Forum <span class="highlight">UII</span></a>
 			<button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
@@ -31,17 +31,17 @@
 				  <div class="dropdown-menu" aria-labelledby="dropdownMenu">
 				  	<p class="dropdown-item dropdown-backdrop">Fikri Ahmadi</p>
 				  	<hr>
-				  	<a class="dropdown-item" href=""><i class="fa fa-user" style="margin-right: 5px;"></i> Profile</a>
-				  	<a class="dropdown-item" href=""><i class="fa fa-home" style="margin-right: 5px;"></i> Dashboard</a>
-				  	<a class="dropdown-item" href=""><i class="fa fa-cog" style="margin-right: 5px;"></i> Setting</a>
-				  	<a class="dropdown-item" href="">Logout</a>
+				  	<a class="dropdown-item" href="<?php echo site_url('author/fikrius'); ?>"><i class="fa fa-user" style="margin-right: 5px;"></i> Profile</a>
+				  	<a class="dropdown-item" href="<?php echo site_url('home'); ?>"><i class="fa fa-home" style="margin-right: 5px;"></i> Dashboard</a>
+				  	<a class="dropdown-item" href="<?php echo site_url('setting'); ?>"><i class="fa fa-cog" style="margin-right: 5px;"></i> Setting</a>
+				  	<a class="dropdown-item" href="<?php echo site_url('logout'); ?>">Logout</a>
 				  </div>
 				</ul>
 				<!-- End Profile Dropdown -->
 			</div>
 		</div>
 	</nav>
-	<div class="container">
+	<div class="container" style="min-height: 70rem; margin-top: 75px;">
 		<div class="row">
 			<div class="col-md-3">
 				<div class="card">

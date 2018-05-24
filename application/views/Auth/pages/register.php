@@ -4,7 +4,7 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-expand-sm">
+	<nav class="navbar navbar-expand-sm fixed-top">
 		<div class="container">
 			<a href="<?php echo site_url('home'); ?>" class="navbar-brand">Forum <span class="highlight">UII</span></a>
 			<button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
@@ -22,7 +22,7 @@
 		</div>
 	</nav>
 
-	<section class="register">
+	<section class="register" style="min-height: 500px; margin-top: 50px;">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-8 col-xs-8 offset-lg-4 offset-md-4 offset-sm-2 offset-xs-2">

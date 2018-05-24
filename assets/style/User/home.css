@@ -18,7 +18,7 @@ nav li, a:hover{
 	color: #2C3E50;
 }
 .container-wrap{
-	min-height: 600px;
+	min-height: 850px;
 }
 .row{
 	margin-top: 1rem;
@@ -59,7 +59,6 @@ nav li, a:hover{
 	background-color: #128A72;
 	border-color: #fff;
 }
-
 .category {
 	margin-top: 4rem;
 }
@@ -106,5 +105,3 @@ nav li, a:hover{
 	background-color: #18BC9C;
 	color: white;
 }
-
-

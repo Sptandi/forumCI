@@ -43,7 +43,7 @@
 	</nav>
 
 	<section class="container-wrap">
-		<div class="container">	
+		<div class="container" style="min-height: 70rem;">	
 			<div class="row">
 				<div class="col-md-3">
 					<div class="input-group mb-3 search-thread">
@@ -77,7 +77,60 @@
 					</div>
 				</div>
 
-				<div class="col-md-9 main-content">
+				<div class="col-md-6 main-content">
+					<!-- Baris slideshow berita terpopuler dan space iklan -->
+					<div class="row">
+						<!-- Slideshow berita terpopuler -->
+						<div class="col-md-12">
+							<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+							 	<ol class="carousel-indicators">
+							    	<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+							    	<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+							    	<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+							  	</ol>
+
+							  	<div class="carousel-inner">
+							    	<div class="carousel-item active">
+							      		<img class="d-block w-100" src="<?php echo base_url('assets/img/merapi.jpg'); ?>" alt="First slide">
+							      		<div class="carousel-caption d-none d-md-block">
+											<a href="#" style="color: inherit;"><h5>Status Gunung Merapi</h5></a>
+										    <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										    tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+										</div>
+							    	</div>
+
+							    	<div class="carousel-item">
+							      		<img class="d-block w-100" src="<?php echo base_url('assets/img/merapi.jpg'); ?>" alt="Second slide">
+							      		<div class="carousel-caption d-none d-md-block">
+											<a href="#" style="color: inherit;"><h5>Status Gunung Merapi</h5></a>
+										    <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										    tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+										</div>
+							    	</div>
+
+							    	<div class="carousel-item">
+							      		<img class="d-block w-100" src="<?php echo base_url('assets/img/merapi.jpg'); ?>" alt="Third slide">
+							      		<div class="carousel-caption d-none d-md-block">
+											<a href="#" style="color: inherit;"><h5>Status Gunung Merapi</h5></a>
+										    <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										    tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+										</div>
+							    	</div>
+							  	</div>
+
+							  	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+							    	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							    	<span class="sr-only">Previous</span>
+							  	</a>
+
+							  	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+							    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							    	<span class="sr-only">Next</span>
+							  	</a>
+							</div>
+						</div>
+					</div>
+
 					<!-- Card 1 -->
 					<div class="card">
 					  <div class="card-header">	
@@ -138,6 +191,33 @@
 					  </div>
 					</div>
 				</div>
+
+				<div class="col-md-3 iklan" style="margin-top: 1rem;">
+					<div class="iklan-satu">
+						<a href="#">
+							<img style="width: 100%;" src="<?php echo base_url('assets/img/iklan/infografis banjir jkt.jpg'); ?>">
+						</a>
+					</div>
+					<hr>
+					<div class="iklan-dua" style="margin-top: 1rem;">
+						<a href="#">
+							<img style="width: 100%;" src="<?php echo base_url('assets/img/iklan/minion.gif'); ?>">
+						</a>
+					</div>
+					<hr>
+					<div class="iklan-dua" style="margin-top: 1rem;">
+						<a href="#">
+							<img style="width: 100%;" src="<?php echo base_url('assets/img/iklan/madya.jpg'); ?>">
+						</a>
+					</div>
+					<hr>
+					<div class="iklan-tiga" style="margin-top: 1rem;">
+						<a href="#">
+							<img style="width: 100%;" src="<?php echo base_url('assets/img/iklan/tangguh award.jpg'); ?>">
+						</a>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</section>

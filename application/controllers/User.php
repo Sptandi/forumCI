@@ -7,11 +7,27 @@ class User extends CI_Controller {
 	{	
 		$this->load->view('User/templates/header');
 		$this->load->view('User/pages/home');
-
+		$this->load->view('User/templates/footer');
 	}
 
-	public function showSetting()
+	public function post()
+	{	
+		$this->load->view('User/templates/header');
+		$this->load->view('User/pages/post');
+		$this->load->view('User/templates/footer');
+	}
+
+	public function setting()
 	{
-		$this->load->view('User/pages/setting');	
+		$this->load->view('User/templates/header');
+		$this->load->view('User/pages/setting');
+		$this->load->view('User/templates/footer');	
 	}
+
+	public function author(){
+		$this->load->view('User/templates/header');
+		$this->load->view('User/pages/author');
+		$this->load->view('User/templates/footer');
+	}
+
 }

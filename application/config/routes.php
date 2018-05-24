@@ -2,10 +2,14 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 $route['default_controller'] = 'auth/login';
-$route['(:any)'] = 'Auth/$1'; // forumCI/login
+$route['login'] = 'Auth/login'; // forumCI/login
+$route['register'] = 'Auth/register';
 
 $route['home'] = 'User/index';
-$route['setting'] = 'User/showSetting';
+$route['post'] = 'User/post';
+$route['setting'] = 'User/setting';
+
+$route['author/(:any)'] = 'User/author/$1';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

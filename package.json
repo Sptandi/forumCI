@@ -1,0 +1,24 @@
+{
+  "name": "forumCI",
+  "version": "1.0.0",
+  "description": "Forum Online using Codeigniter",
+  "main": "index.js",
+  "dependencies": {
+    "jquery-bar-rating": "^1.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sptandi/forumCI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sptandi/forumCI/issues"
+  },
+  "homepage": "https://github.com/Sptandi/forumCI#readme"
+}
